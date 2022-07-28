@@ -1,7 +1,10 @@
 #navbarSupportedContent {
   font-weight: bold;
 }
-
+.carousel-item: {
+  height: 100vh;
+  min-height: 300px;
+}
 .carousel-item::before {
   content: "";
   position: absolute;
@@ -14,10 +17,31 @@
   background: #000;
   opacity: 0.7;
 }
-.carousel-caption {
+#slider .carousel-caption {
   bottom: 180px;
-  padding-left: 100px;
-  padding-right: 100px;
+  text-align: center;
 }
 .carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p {
+  font-size: 18px;
+  top: 2rem;
+}
+.slider-btn {
+  margin-top: 30px;
+}
+.slider-btn .btn {
+  background-color: rgb(2, 54, 2);
+  color: white;
+}
+.section-title {
+  width: 90%;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  margin-left: 30px;
 }
