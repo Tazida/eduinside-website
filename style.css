@@ -42,10 +42,17 @@
   margin-left: 30px;
 }
 .modal-header {
-  background-color: rgb(99, 248, 99);
-  color: #000;
+  background-color: rgb(35, 78, 35);
+  color: #fff;
 }
 .required::after {
   content: "*";
   color: red;
+}
+.ques-session {
+  width: 90%;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  margin-left: 30px;
 }
