@@ -1,2 +1,2 @@
 # eduinside-website
-https://github.com/Tazida/eduinside-website.git
+https://tazida.github.io/eduinside-website/
