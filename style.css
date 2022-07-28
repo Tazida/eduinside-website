@@ -1,3 +1,23 @@
-.reg-btn {
-  background-color: rgb(114, 1, 114);
+#navbarSupportedContent {
+  font-weight: bold;
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  width: 80;
+  height: 100;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.7;
+}
+.carousel-caption {
+  bottom: 180px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.carousel-caption h5 {
 }
