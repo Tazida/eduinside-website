@@ -45,3 +45,7 @@
   background-color: rgb(99, 248, 99);
   color: #000;
 }
+.required::after {
+  content: "*";
+  color: red;
+}
